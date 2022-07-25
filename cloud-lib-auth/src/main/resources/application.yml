@@ -1,0 +1,15 @@
+server:
+  port: 19021
+  servlet:
+    context-path: /auth
+
+spring:
+  application:
+    name: cloud-lib-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+auth:
+  secret-Key: xsecrety0
